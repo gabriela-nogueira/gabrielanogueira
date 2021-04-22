@@ -11,7 +11,15 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: `${__dirname}/src/images/`,
+      },
+      __key: "images",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "posts",
+        path: `${__dirname}/posts`,
       },
       __key: "images",
     },
@@ -23,5 +31,25 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          'Quicksand',
+          'Sacramento',
+          'Inter',
+          'Zilla Slab Highlight',
+          'Oswald',
+          'Noto Serif'
+        ]
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [],
+      },
+    },
   ],
+  
 };
