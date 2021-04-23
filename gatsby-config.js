@@ -39,6 +39,7 @@ module.exports = {
           'Sacramento',
           'Inter',
           'Zilla Slab Highlight',
+          'Zilla Slab',
           'Oswald',
           'Noto Serif'
         ]
@@ -48,6 +49,12 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: "src/images/enigma.png",
       },
     },
   ],

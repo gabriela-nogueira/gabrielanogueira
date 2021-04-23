@@ -1,8 +1,11 @@
 import Layout from "../components/Layout/layout"
+import React from "react"
 
 const BlogPost = () => {
-    <Layout>
-    </Layout>
+    return (
+        <Layout>
+       </Layout>
+    )
 }
 
 export default BlogPost

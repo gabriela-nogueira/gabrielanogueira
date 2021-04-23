@@ -5,7 +5,7 @@ import * as S from './styled'
 const Header = () => (
     <S.HeaderWrapper>
         <S.TitleWrapper>
-        <S.Title >Gabriela Nogueira<S.Pisca>|</S.Pisca></S.Title>
+        <S.Letra>Gabi</S.Letra><S.Letra2>Nogueira</S.Letra2>
         <S.Navigation>
             <S.Inicio>root@gabriela:~$ </S.Inicio>
             <S.CD>cd </S.CD>

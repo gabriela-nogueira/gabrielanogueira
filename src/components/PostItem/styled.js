@@ -11,7 +11,7 @@ export const PostWrapper = styled.div`
     width:80%;
     height:250px;
     position: relative;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 
     @media only screen and (max-width: 860px) {
         width:90%;
@@ -31,12 +31,14 @@ export const PostItemWrapper = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     grid-row-gap: 2.5em;
+    margin-bottom: 2%;
     
 
     @media only screen and (max-width:620px) {
         grid-template-columns: 1fr;
         margin-top:5%;
         grid-row-gap: 2.5em;
+        margin-left:8%;
     }
 
     @media only screen and (max-width: 960px) and  (min-width:621px) {

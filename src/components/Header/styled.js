@@ -10,7 +10,7 @@ export const HeaderWrapper = styled.div`
 
 export const TitleWrapper = styled.div`
     padding-left:5%;
-    padding-top:1.35%;
+    padding-top:1%;
     height: 60px;
 
     @media only screen and (max-width: 860px) {
@@ -57,19 +57,41 @@ export const Title = styled(Link)`
 
     @media only screen and (max-width: 860px) {
         font-size:230%;
+        margin-left:5%;
+       
     }
     
+`
+
+export const Letra = styled(Link)`
+    font-size:200%;
+    font-family: 'Zilla Slab Highlight', cursive;
+    text-decoration:none;
+    color:white;
+
+    @media only screen and (max-width: 860px) {
+        margin-left:5%;
+       
+    }
+`
+
+export const Letra2 = styled(Link)`
+    font-size:200%;
+    font-family: 'Zilla Slab', serif;
+    text-decoration:none;
+    color:white;
 `
 
 export const Navigation = styled.div`
     font-size:100%;
     font-family:'Inter', sans-serif;
-    margin:auto;
     display:inline;
     padding-left: 2%;
+    margin-top:5%;
     
     @media only screen and (max-width: 860px) {
         visibility:hidden;
+        display: none;
     }
 `
 
@@ -77,6 +99,7 @@ export const Inicio = styled.div`
     color:#e05275;
     display:inline;
     padding-right:0.5%;
+    
 `
 
 export const Pagina = styled(Link)`
