@@ -10,6 +10,7 @@ const IndexPage = () => {
      <Layout>
       <PostItem/>
      </Layout>
+     
      </>
    )
 }

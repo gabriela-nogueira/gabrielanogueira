@@ -7,12 +7,10 @@ export const Wrapper = styled.div`
     width:100%;
     height: 55px;
     background-color: #30475e;
-    margin:0;
     font-size:110%;
     font-family: 'Zilla Slab', serif;
-    left: 0;
+    position: absolute;
     bottom: 0;
-    position:absolute;
 `
 
 export const Data = styled.div`

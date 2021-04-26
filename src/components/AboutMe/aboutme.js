@@ -41,7 +41,7 @@ const AboutMe = () => {
             Me encontre nas seguintes redes:&nbsp;
 
             <S.Link href="https://github.com/gabriela-nogueira" target="_blank">Github</S.Link> • <S.Link href="https://www.linkedin.com/in/gabriela-nogueira/" target="_blank">Linkedin</S.Link> • <S.Link href="http://instagram.com/gabs.py" target="_blank">Instagram</S.Link>
-
+            <br/><br/><br/><br/>
             </S.MyHistory>
          </S.Wrapper>
     )

@@ -36,14 +36,14 @@ export const PostItemWrapper = styled.div`
 
     @media only screen and (max-width:620px) {
         grid-template-columns: 1fr;
-        margin-top:5%;
+        margin-top:18%;
         grid-row-gap: 2.5em;
         margin-left:8%;
     }
 
     @media only screen and (max-width: 960px) and  (min-width:621px) {
         grid-template-columns: 1fr 1fr;
-        margin-top:5%;
+        margin-top:18%;
         grid-row-gap: 2.5em;
     }
 

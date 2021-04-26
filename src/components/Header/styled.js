@@ -15,8 +15,7 @@ export const TitleWrapper = styled.div`
 
     @media only screen and (max-width: 860px) {
         padding-top:2%;
-        padding-left:2%;
-        margin:auto;
+        margin-left:22%;
     }
 `
 
@@ -50,16 +49,14 @@ export const MenuLateral = styled(Menu)`
 
 
 export const Title = styled(Link)`
-    font-size:200%;
-    font-family: 'Sacramento', cursive;
-    text-decoration:none;
-    color:white;
+  
+@media only screen and (max-width: 620px) {
+    margin-left:0%;
+}
 
-    @media only screen and (max-width: 860px) {
-        font-size:230%;
-        margin-left:5%;
-       
-    }
+@media only screen and (max-width: 860px) and  (min-width:621px) {
+    margin-left:10%;
+}
     
 `
 
@@ -71,7 +68,6 @@ export const Letra = styled(Link)`
 
     @media only screen and (max-width: 860px) {
         margin-left:5%;
-       
     }
 `
 
@@ -85,13 +81,23 @@ export const Letra2 = styled(Link)`
 export const Navigation = styled.div`
     font-size:100%;
     font-family:'Inter', sans-serif;
+    position:relative;
     display:inline;
     padding-left: 2%;
     margin-top:5%;
+
+    @media only screen and (max-width: 620px) {
+        width:100%;
+        margin-top:15%;
+        margin-left:-20%;
+        display:block;
+    }
     
-    @media only screen and (max-width: 860px) {
-        visibility:hidden;
-        display: none;
+    @media only screen and (max-width: 860px) and  (min-width:621px) {
+        width:100%;
+        margin-top:10%;
+        margin-left:-4%;
+        display:block;
     }
 `
 
@@ -100,6 +106,10 @@ export const Inicio = styled.div`
     display:inline;
     padding-right:0.5%;
     
+    @media only screen and (max-width: 860px) {
+        visibility:hidden;
+        display: none;
+    }
 `
 
 export const Pagina = styled(Link)`
@@ -119,11 +129,23 @@ export const Pagina = styled(Link)`
     .active {
         color:green;
     }
+
+    @media only screen and (max-width: 860px) {
+        padding:2%;
+        margin-left:1%;
+        background-color: #30475e;
+        border-radius:25px;
+    }
 `
 
 export const CD = styled.div`
     color:white;
     display:inline;
+
+    @media only screen and (max-width: 860px) {
+        visibility:hidden;
+        display: none;
+    }
 `
 
 export const Pisca = styled.div`

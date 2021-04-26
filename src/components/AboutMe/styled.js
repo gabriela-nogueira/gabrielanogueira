@@ -6,6 +6,14 @@ export const Wrapper = styled.div`
     margin: auto;
     margin-top:3%;
     position: relative;
+
+    @media only screen and (max-width: 620px) {
+        margin-top:18%;
+    }
+    
+    @media only screen and (max-width: 860px) and  (min-width:621px) {
+        margin-top:15%;
+    }
 `
 
 export const Title = styled.div`
