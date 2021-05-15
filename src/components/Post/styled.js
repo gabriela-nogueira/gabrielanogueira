@@ -5,6 +5,10 @@ import { Tag } from "@styled-icons/boxicons-solid/Tag"
 export const PostWrapper = styled.div`
     width:100%;
     margin-top: 3%;
+
+    @media only screen and (max-width: 820px) {
+        margin-top:15%;
+    }
 `
 
 export const PostItem = styled.div`
@@ -17,6 +21,10 @@ export const PostItem = styled.div`
     transform: translateX(-50%);
     border-radius: 5px;
     padding-bottom:2%;
+
+    @media only screen and (max-width: 820px) {
+        width:90%;
+    }
 `
 
 export const PostImage = styled(Img)`
@@ -24,6 +32,11 @@ export const PostImage = styled(Img)`
     height:auto;
     margin: auto;
     position: relative;
+    border-radius: 5px;
+
+    @media only screen and (max-width:820px) {
+        width:100%;
+    }
 `
 
 export const PostTitle = styled.div`
@@ -31,20 +44,34 @@ export const PostTitle = styled.div`
     font-size:225%;
     margin-left:2%;
     padding-top:1%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+
+    @media only screen and (max-width: 820px) {
+        font-size:180%;
+        text-align:center;
+    }
 `
 
 export const Details = styled.div`
     color:white;
-    font-size:100%;
+    font-size:90%;
     padding-top:2%;
-    margin-left:2%;
+    margin-left:2.25%;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    @media only screen and (max-width: 820px) {
+        text-align:center;
+    }
 `
 
 export const Description = styled.div`
     color:white;
-    font-size:100%;
+    font-size:90%;
     margin-left:2%;
     padding-top:1%;
+    font-family: 'Open Sans Condensed', sans-serif;
+  
 `
 
 export const TagIcon = styled(Tag)`
@@ -61,11 +88,13 @@ export const Content = styled.div`
     width:95%;
     text-align:justify;
     font-size:120%;
+    font-family: 'Noto Sans JP', sans-serif;
     
     h1,h2,h3 {
         color:#e05275;
-        padding-bottom:0.5%;
-        font-size:150%;
+        padding-bottom:1%;
+        font-size:135%;
+        font-weight: bold;
     }
 
     a {
@@ -77,4 +106,5 @@ export const Content = styled.div`
         color:#f4becb;
         font-weight: bold;
     }
+
 `

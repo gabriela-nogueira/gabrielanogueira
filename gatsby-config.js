@@ -41,7 +41,9 @@ module.exports = {
           'Zilla Slab Highlight',
           'Zilla Slab',
           'Oswald',
-          'Noto Serif'
+          'Noto Serif',
+          'Open Sans Condensed',
+          'Noto Sans JP'
         ]
       },
     },

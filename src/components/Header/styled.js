@@ -14,7 +14,7 @@ export const TitleWrapper = styled.div`
     height: 60px;
 
     @media only screen and (max-width: 860px) {
-        padding-top:2%;
+        padding-top:4%;
         margin-left:22%;
     }
 `
@@ -51,7 +51,7 @@ export const MenuLateral = styled(Menu)`
 export const Title = styled(Link)`
   
 @media only screen and (max-width: 620px) {
-    margin-left:0%;
+    margin-left:-5%;
 }
 
 @media only screen and (max-width: 860px) and  (min-width:621px) {
@@ -88,17 +88,16 @@ export const Navigation = styled.div`
 
     @media only screen and (max-width: 620px) {
         width:100%;
-        margin-top:15%;
+        margin-top:13%;
         margin-left:-20%;
-        display:block;
+        display:inline-block;        
     }
     
     @media only screen and (max-width: 860px) and  (min-width:621px) {
         width:100%;
         margin-top:10%;
-        margin-left:-4%;
-        display:block;
-    }
+        display:inline-block;
+        }
 `
 
 export const Inicio = styled.div`
@@ -131,10 +130,11 @@ export const Pagina = styled(Link)`
     }
 
     @media only screen and (max-width: 860px) {
-        padding:2%;
         margin-left:1%;
+        padding:1.4%;
         background-color: #30475e;
-        border-radius:25px;
+        border-radius:20px;
+        font-size:90%;
     }
 `
 
