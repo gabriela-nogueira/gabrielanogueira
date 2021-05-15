@@ -9,7 +9,7 @@ const AboutMe = () => {
             &nbsp;&nbsp;&nbsp;&nbsp;Olá joveeeeem, tudo bem? Sou a Gabi e tenho 22 anos! Atualmente estudo engenharia da computação e
             trabalho como analista de tecnologia na área de big data. <br/><br/>
 
-            Quando eu era criança, tinha certeza do que queria trabalhar quando crescer. Sabe o que é né?
+            Quando eu era criança, tinha certeza do que queria "ser"" quando crescer. Sabe o que é né?
             Isso mesmo, ESTILISTA! hahaha Desenhava vários modelos de roupas e pensava muito em criar uma
             marca quando crescer. Pegava uns lençois velhos da minha mãe, saia cortando e tentando fazer
             a saia da Mia do RBD (imagina que lindeza haha). E nos meus 13 anos, meus pais pagaram um curso de web
