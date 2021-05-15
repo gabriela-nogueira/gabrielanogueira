@@ -114,7 +114,7 @@ const Content = styled.div`
 
 `
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({data}) => {
 
     const post = data.markdownRemark
 
@@ -127,7 +127,7 @@ const BlogPost = ({ data }) => {
                     <Details>{post.frontmatter.date} • {post.timeToRead} min de leitura</Details>
                     <PostTitle>{post.frontmatter.title}</PostTitle>
                     <Description>
-                        <S.TagIcon></S.TagIcon> {post.frontmatter.category}
+                        <TagIcon></TagIcon> {post.frontmatter.category}
                     </Description>
                     <Content dangerouslySetInnerHTML={{ __html: post.html}}>
                     </Content>
