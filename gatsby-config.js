@@ -32,22 +32,6 @@ module.exports = {
       __key: "pages",
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          'Quicksand',
-          'Sacramento',
-          'Inter',
-          'Zilla Slab Highlight',
-          'Zilla Slab',
-          'Oswald',
-          'Noto Serif',
-          'Open Sans Condensed',
-          'Noto Sans JP'
-        ]
-      },
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [],
