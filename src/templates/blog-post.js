@@ -1,5 +1,4 @@
 import Layout from "../components/Layout/layout"
-import * as S from "../components/Post/styled"
 import React from "react"
 import {graphql} from "gatsby"
 import styled from 'styled-components'
