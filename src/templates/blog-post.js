@@ -119,6 +119,7 @@ const BlogPost = ({data}) => {
 
     return (
         <>
+         <title>{post.frontmatter.title} • Gabriela Nogueira | Dados e Tecnologia </title>
         <Layout>
               <PostWrapper>
                 <PostImage fluid={post.frontmatter.cover_img.childImageSharp.fluid}></PostImage>
