@@ -44,6 +44,21 @@ module.exports = {
         icon: "src/images/enigma.png",
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          'Open Sans Condensed',
+          'Noto Sans JP',
+          'Sacramento',
+          'Inter',
+          'Zilla Slab Highlight',
+          'Zilla Slab',
+          'Quicksand',
+          'Oswald'
+        ],
+      }
+    }
   ],
   
 };
