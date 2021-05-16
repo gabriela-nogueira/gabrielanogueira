@@ -118,7 +118,7 @@ const BlogPost = ({data}) => {
     const post = data.markdownRemark
 
     return (
-
+        <>
         <Layout>
               <PostWrapper>
                 <PostImage fluid={post.frontmatter.cover_img.childImageSharp.fluid}></PostImage>
@@ -134,6 +134,7 @@ const BlogPost = ({data}) => {
               </PostWrapper>
          
        </Layout>
+       </>
     )
 }
 
