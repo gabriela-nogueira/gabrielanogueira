@@ -1,12 +1,13 @@
 import * as React from "react"
 import Layout from "../components/Layout/layout"
 import PostItem from "../components/PostItem/postitem"
+import SEO from "../components/seo"
 
 
 const IndexPage = () => {
    return (
      <>
-      <title>Gabriela Nogueira | Dados e Tecnologia </title>
+     <SEO title="Inicio"/>
      <Layout>
       <PostItem/>
      </Layout>

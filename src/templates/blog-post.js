@@ -4,6 +4,7 @@ import {graphql} from "gatsby"
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 import { Tag } from "@styled-icons/boxicons-solid/Tag"
+import SEO from "../components/seo"
 
 
 const PostWrapper = styled.div`
@@ -111,6 +112,10 @@ const Content = styled.div`
         font-weight: bold;
     }
 
+    @media only screen and (max-width: 820px) {
+        marign-top:5%;
+    }
+
 `
 
 const BlogPost = ({data}) => {
@@ -119,7 +124,7 @@ const BlogPost = ({data}) => {
 
     return (
         <>
-         <title>{post.frontmatter.title} • Gabriela Nogueira | Dados e Tecnologia </title>
+        <SEO title={post.frontmatter.title}/>
         <Layout>
               <PostWrapper>
                 <PostImage fluid={post.frontmatter.cover_img.childImageSharp.fluid}></PostImage>

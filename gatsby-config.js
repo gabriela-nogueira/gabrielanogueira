@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Gabriela Nogueira",
+    title: "Gabriela Nogueira | Dados e Tecnologia",
+    description: "Blog sobre tecnologia e dados."
   },
   plugins: [
     "gatsby-plugin-image",
@@ -35,7 +36,9 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [],
+        plugins: [
+          `gatsby-remark-prismjs`
+        ],
       },
     },
     {
