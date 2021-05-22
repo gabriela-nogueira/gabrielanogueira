@@ -29,7 +29,7 @@ function SEO({ description, lang, meta, title }) {
       meta={[
         {
           name: `aplication-name`,
-          content: 'Gabriela Nogueira | Dados e Tecnologia'
+          content: 'Gabriela Nogueira | Blog sobre dados e tecnologia'
         },
         {
           name: `description`,

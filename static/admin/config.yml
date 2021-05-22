@@ -1,0 +1,30 @@
+backend:
+  name: github
+  repo: gabriela-nogueira/gabrielanogueira
+  branch: master
+  site_domain: https://gabrielanogueira.netlify.app/
+
+publish_mode: editorial_workflow
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    media_folder: ''
+    public_folder: ''
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD hh:mm:ss' }
+      - { label: 'Category', 
+          name: 'category',
+          widget: 'select',
+          options: ["Aprendizagem", "Engenharia", "Dados", "Programação"] }
+      - { label: 'Image', name: 'cover_image', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
