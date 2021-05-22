@@ -62,7 +62,18 @@ module.exports = {
           'Oswald'
         ],
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-8XGCD05GYW",
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+        pageTransitionDelay: 0,
+        defer: false
+      },
+    },
   ],
   
 };
