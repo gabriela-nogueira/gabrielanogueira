@@ -26,5 +26,5 @@ collections:
           name: 'category',
           widget: 'select',
           options: ["Aprendizagem", "Engenharia", "Dados", "Programação"] }
-      - { label: 'Image', name: 'cover_image', widget: 'image' }
+      - { label: 'Image', name: 'cover_image', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
