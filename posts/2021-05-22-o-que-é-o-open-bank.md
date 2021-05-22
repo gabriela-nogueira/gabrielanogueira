@@ -2,7 +2,7 @@
 title: O que é o Open Bank?
 date: 2021-05-22 12:22:37
 category: Aprendizagem
-cover_image: ../src/images/bank.jpg
+cover_image: bank.jpg
 ---
 <!--StartFragment-->
 
