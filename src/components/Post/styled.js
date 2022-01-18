@@ -33,7 +33,6 @@ export const PostImage = styled(Img)`
     margin: auto;
     position: relative;
     border-radius: 5px;
-    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,40,49,0.20211834733893552) 35%);
 
     @media only screen and (max-width:820px) {
         width:100%;
@@ -89,7 +88,6 @@ export const Content = styled.div`
     width:95%;
     text-align:justify;
     font-size:120%;
-    line-height:20%;
     font-family: 'Noto Sans JP', sans-serif;
     
     h1,h2,h3 {
