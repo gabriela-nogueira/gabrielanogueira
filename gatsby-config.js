@@ -9,7 +9,6 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-styled-components",
-    `gatsby-plugin-netlify-cms`,
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -38,7 +37,25 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-prismjs`
+          `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+            },
+          },
+          {
+            resolve: `gatsby-remark-interactive-gifs`,
+            options: {
+              root: `${__dirname}`,
+              src: `${__dirname}/src/images`,
+              dest: `${__dirname}/public/static/gifs`,
+              play: `${__dirname}/src/images/fefsta.gif`,
+              placeholder: `${__dirname}/src/images/code.gif`,
+              loading: `${__dirname}/src/images/loading.gif`,
+              relativePath: `/static/gifs`
+            },
+          },
         ],
       },
     },

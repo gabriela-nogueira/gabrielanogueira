@@ -88,11 +88,12 @@ const TagIcon = styled(Tag)`
 
 const Content = styled.div`
     padding-top:2%;
-    color:white;
+    color:#f8f1f1;
     margin:auto;
     width:95%;
     text-align:justify;
     font-size:120%;
+    line-height:130%;
     font-family: 'Noto Sans JP', sans-serif;
     
     h1,h2,h3 {
