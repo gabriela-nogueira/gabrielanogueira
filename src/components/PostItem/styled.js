@@ -8,8 +8,8 @@ export const PostItemLink = styled(Link)`
 `
 
 export const PostWrapper = styled.div`
-    width:80%;
-    height:250px;
+    width:70%;
+    height:280px;
     position: relative;
     margin-bottom: 0;
 
@@ -73,7 +73,9 @@ export const PostInfo = styled.div`
 export const PostTitle = styled.div`
     font-family: 'Oswald', sans-serif;
     font-size:120%;
+    width:100%;
     z-index:1;
+    line-height: 1.4;
     height:50px;
     margin-top: 2%;
 

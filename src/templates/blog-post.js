@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 
 const PostWrapper = styled.div`
     width:100%;
-    margin-top: 3%;
+    margin-top: 2%;
 
     @media only screen and (max-width: 820px) {
         margin-top:15%;
@@ -20,7 +20,7 @@ const PostItem = styled.div`
     margin: auto;
     width:60%;
     background-color:#222831;
-    margin-top:-20%;
+    margin-top:-15%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -92,8 +92,9 @@ const Content = styled.div`
     margin:auto;
     width:95%;
     text-align:justify;
-    font-size:120%;
-    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.5;
+    font-size:160%;
+    font-family: 'Roboto Slab', serif;
     
     h1,h2,h3 {
         color:#e05275;

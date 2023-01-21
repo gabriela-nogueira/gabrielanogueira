@@ -43,7 +43,7 @@ const PostItem = () => {
         }) => (
         <S.PostItemLink to={slug} >
             <S.PostWrapper>
-                <S.PostTag to="https://google.com">{category}</S.PostTag>
+                <S.PostTag to="">{category}</S.PostTag>
                 <S.PostImage fluid={cover_img.childImageSharp.fluid}></S.PostImage>
                 <S.PostInfo>{date} • {timeToRead} min de leitura</S.PostInfo>
                 <S.PostTitle>{title}</S.PostTitle>

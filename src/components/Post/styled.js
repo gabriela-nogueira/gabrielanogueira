@@ -81,13 +81,13 @@ export const TagIcon = styled(Tag)`
     color:#b90e52;
 `
 
-export const Content = styled.div`
-    padding-top:2%;
-    color:white;
+export const Content = styled.p`
+    color:blue;
     margin:auto;
     width:95%;
     text-align:justify;
-    font-size:120%;
+    font-size:200%;
+    line-height: 30%;
     font-family: 'Noto Sans JP', sans-serif;
     
     h1,h2,h3 {

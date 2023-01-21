@@ -59,7 +59,8 @@ module.exports = {
           'Zilla Slab Highlight',
           'Zilla Slab',
           'Quicksand',
-          'Oswald'
+          'Oswald',
+          'Roboto Slab'
         ],
       }
     },
