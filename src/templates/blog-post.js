@@ -93,7 +93,7 @@ const Content = styled.div`
     width:95%;
     text-align:justify;
     line-height: 1.5;
-    font-size:160%;
+    font-size:120%;
     font-family: 'Roboto Slab', serif;
     
     h1,h2,h3 {
